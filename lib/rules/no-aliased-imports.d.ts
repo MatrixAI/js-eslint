@@ -1,4 +1,4 @@
-export declare const noAliasedImportsInSrcRule: {
+export declare const noAliasedImportsRule: {
     meta: {
         type: string;
         fixable: string;
@@ -52,7 +52,7 @@ export declare const noAliasedImportsInSrcRule: {
         autoFix: boolean;
     }[];
     create(context: any): {
-        importDeclaration(node: any): void;
+        ImportDeclaration(node: any): void;
     };
 };
 //# sourceMappingURL=no-aliased-imports.d.ts.map
